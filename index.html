@@ -17,19 +17,23 @@
     <!-- Test Hola -->
     <!-- este es un nuevo comentario  -->
     <!-- este es el nuevo comentario de Kim -->
-    <div class="container-fluid">
+    <div class="container-fluid ">
         <!-- aqui va el navbar de ben  -->
-        <nav class="navbar navbar-expand-lg bg-body-light shadow-sm">
+        <nav class="navbar navbar-expand-lg bg-body-light shadow-sm ">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#">Navbar</a>
-                <!-- div de elementos navbar -->
-                <div>
+                <div class="row">
+                    <!-- boton de despliegue aside derecho  -->
+                    <button class=" col-3 navbar-toggler border border-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- logotipo -->
+                    <a class=" col-4 navbar-brand logo" href="#"><img class="w-50" src="./assets/images/logotipo.png"
+                            alt=""></a>
+                    <!--elementos navbar -->
                     <!-- icono Search -->
-                    <a href="">
+                    <div class="col-2 mt-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img"
                             aria-labelledby="acqvzhayv8mf3mvwu5y9jj5ugpmn525h" class="crayons-icon">
                             <title id="acqvzhayv8mf3mvwu5y9jj5ugpmn525h">Search</title>
@@ -37,43 +41,32 @@
                                 d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0111 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 01-1.969 5.617zm-2.006-.742A6.977 6.977 0 0018 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 004.875-1.975l.15-.15z">
                             </path>
                         </svg>
-                    </a>
+                    </div>
                     <!-- icono notificaciones  -->
-                    <a href="">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img"
+                    <div class="col-2 mt-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="24" viewBox="0 0 24 24" role="img"
                             aria-labelledby="ame3cw79o7hng83z0at59okfmz4a9h74" class="crayons-icon">
                             <title id="ame3cw79o7hng83z0at59okfmz4a9h74">Notifications</title>
                             <path d="M20 17h2v2H2v-2h2v-7a8 8 0 1116 0v7zm-2 0v-7a6 6 0 10-12 0v7h12zm-9 4h6v2H9v-2z">
                             </path>
                         </svg>
-                    </a>
-                    <!-- img avatar  -->
-                    <a href="">
-                        <span class="crayons-avatar crayons-avatar--l">
-                            <img class="w-25 rounded-circle " alt="" id="nav-profile-image"
-                                src="https://res.cloudinary.com/practicaldev/image/fetch/s--5du0Y1UY--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/856324/8e50cdea-29d5-4ee0-89e0-e79971bdaa13.jpeg">
-                        </span>
-                    </a>
+                    </div>
                 </div>
-                <!-- elementos que colapsan  -->
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
-                        </li>
-                    </ul>
+                <!-- img avatar  -->
+                <div class="col-2 mt-1">
+                    <span class="crayons-avatar crayons-avatar--l">
+                        <img class="w-50 rounded-circle " alt="" id="nav-profile-image"
+                            src="https://res.cloudinary.com/practicaldev/image/fetch/s--5du0Y1UY--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/856324/8e50cdea-29d5-4ee0-89e0-e79971bdaa13.jpeg">
+                    </span>
                 </div>
             </div>
-        </nav>
+
+            <!-- elementos que colapsan (aside izquierdo) -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+            </div>
+    </div>
+    </div>
+    </nav>
     </div>
 
     <!-- aqui va el contenedor de todo el main  -->
