@@ -1,1 +1,43 @@
-/*# sourceMappingURL=style.css.map */
+.custom__link-right:hover {
+  background-color: #fff !important;
+  color: blue !important;
+}
+
+.custom__border-aside-r {
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(236, 236, 236, 0.5);
+  border-left: none;
+}
+
+#aside__right .card {
+  border: 1px solid rgba(236, 236, 236, 0.9);
+}
+#aside__right .card h4 {
+  font-size: 0.9rem;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+aside .list-group-item:hover {
+  background-color: rgb(234, 242, 254);
+  color: rgb(24, 74, 191);
+  text-decoration: underline;
+}
+
+.list-group-flush > .list-group-item {
+  border-width: 0;
+  border-radius: 10px;
+}
+
+span a:hover {
+  background-color: rgb(234, 242, 254);
+  border-radius: 5px;
+}
+
+.socialNetwork-icon {
+  color: rgb(64, 64, 64);
+}
+
+.socialNetwork-icon:hover {
+  color: #4E57EF !important;
+}/*# sourceMappingURL=style.css.map */
