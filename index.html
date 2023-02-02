@@ -18,7 +18,7 @@
     <nav
         class="navbar navbar-expand-lg bg-body-light shadow-sm container-fluid d-flex p-2 justify-content-between align-items-center">
         <div class="row">
-            <div class="col">
+            <div class="col-4">
                 <div class="row">
                     <!-- boton offcanvas -->
                     <button class="w-50 mt-1 d-md-none ms-3 border border-0 navbar-toggler col-2" type="button"
@@ -27,6 +27,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <!-- w-75 para el ancho no sea el 100%  -->
+                    <!-- offcanvas completo  -->
                     <div class="w-75 offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false"
                         tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                         <!-- titulo de offcanvas  -->
@@ -578,30 +579,32 @@
                             </aside>
                         </div>
                     </div>
-
                 </div>
             </div>
-
-
             <!-- logotipo  -->
-            <a class="navbar-brand ms-0 col-2" href="#">
+            <a class="navbar-brand ms-0 col-4" href="#">
                 <img width="50" height="35" class="" src="./assets/images/logotipo.png" alt="logotipo">
             </a>
         </div>
-
         </div>
-        <div class="col">
+        <!--  Search -->
+        <div class="col-4">
             <div class="row d-flex justify-content-end align-items-center">
-                <a class="navbar-brand col-3" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img"
-                        aria-labelledby="acqvzhayv8mf3mvwu5y9jj5ugpmn525h" class="crayons-icon">
-                        <title id="acqvzhayv8mf3mvwu5y9jj5ugpmn525h">Search</title>
-                        <path
-                            d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0111 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 01-1.969 5.617zm-2.006-.742A6.977 6.977 0 0018 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 004.875-1.975l.15-.15z">
-                        </path>
-                    </svg>
+                <a class="navbar-brand col-1" href="#">
+                    <div>
+                        <input class="d-none d-md-block" type="text">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img"
+                            aria-labelledby="acqvzhayv8mf3mvwu5y9jj5ugpmn525h" class="crayons-icon">
+                            <title id="acqvzhayv8mf3mvwu5y9jj5ugpmn525h">Search</title>
+                            <path
+                                d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0111 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 01-1.969 5.617zm-2.006-.742A6.977 6.977 0 0018 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 004.875-1.975l.15-.15z">
+                            </path>
+                        </svg>
+                    </div>
+
                 </a>
-                <a class="navbar-brand col-3" href="#">
+                <!-- icono Notifications -->
+                <a class="navbar-brand col-1" href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img"
                         aria-labelledby="ame3cw79o7hng83z0at59okfmz4a9h74" class="crayons-icon">
                         <title id="ame3cw79o7hng83z0at59okfmz4a9h74">Notifications</title>
@@ -609,15 +612,13 @@
                         </path>
                     </svg>
                 </a>
+                <!-- user-avatar  -->
                 <a class="navbar-brand col-1 me-5" href="#">
                     <span class=""><img width="30" height="30" class="rounded-circle" alt="" id="nav-profile-image"
                             src="https://res.cloudinary.com/practicaldev/image/fetch/s--5du0Y1UY--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/856324/8e50cdea-29d5-4ee0-89e0-e79971bdaa13.jpeg">
                     </span>
                 </a>
             </div>
-
-
-        </div>
         </div>
     </nav>
 
