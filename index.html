@@ -582,17 +582,16 @@
                 </div>
             </div>
             <!-- logotipo  -->
-            <a class="navbar-brand ms-0 col-4" href="#">
+            <a class="navbar-brand ms-0 col-4 col-md-2" href="#">
                 <img width="50" height="35" class="" src="./assets/images/logotipo.png" alt="logotipo">
             </a>
+
         </div>
-        </div>
-        <!--  Search -->
-        <div class="col-4">
+        <!--  3 elementos final navbar -->
+        <div class="col-4 d-md-none">
             <div class="row d-flex justify-content-end align-items-center">
                 <a class="navbar-brand col-1" href="#">
                     <div>
-                        <input class="d-none d-md-block" type="text">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img"
                             aria-labelledby="acqvzhayv8mf3mvwu5y9jj5ugpmn525h" class="crayons-icon">
                             <title id="acqvzhayv8mf3mvwu5y9jj5ugpmn525h">Search</title>
@@ -619,6 +618,49 @@
                     </span>
                 </a>
             </div>
+        </div>
+        <!-- nuevos elementos en md a desktop  -->
+        <div class="col-md-10 d-none d-md-block ">
+            <div class="container ">
+                <div class="row justify-content-md-end d-flex align-items-center ">
+                    <!-- barra buscar  -->
+                    <div class="text-center col-md-5 border border-secondary rounded-2 bg-light">
+                        <input class=" border-0 w-75 m-0 bg-light" type="text" id="" name="q" placeholder="Search..."
+                            autocomplete="off" aria-label="Search term">
+                        <button class="bg-light border-0 mt-1" type="submit" aria-label="Search"
+                            class="c-btn c-btn--icon-alone absolute inset-px left-auto mt-0 py-0"><svg class="bg-light"
+                                xmlns="http://www.w3.org/2000/svg" width="30" height="30" aria-hidden="true" class=""
+                                focusable="false">
+                                <path
+                                    d="m18.031 16.617 4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                    <!-- boton create post -->
+                    <a class="col-md-3 ms-1" href="">
+                        <button class="btn btn-outline-primary p-1 h-auto">Create Post</button>
+                    </a>
+                    <!-- icono Notifications -->
+                    <a class="navbar-brand  col-1" href="#">
+                        <svg class="w-100" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            role="img" aria-labelledby="ame3cw79o7hng83z0at59okfmz4a9h74" class="crayons-icon">
+                            <title id="ame3cw79o7hng83z0at59okfmz4a9h74">Notifications</title>
+                            <path d="M20 17h2v2H2v-2h2v-7a8 8 0 1116 0v7zm-2 0v-7a6 6 0 10-12 0v7h12zm-9 4h6v2H9v-2z">
+                            </path>
+                        </svg>
+                    </a>
+                    <!-- user-avatar  -->
+                    <a class="navbar-brand col-1 me-5" href="#">
+                        <span class=""><img width="30" height="30" class="rounded-circle" alt="" id="nav-profile-image"
+                                src="https://res.cloudinary.com/practicaldev/image/fetch/s--5du0Y1UY--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/856324/8e50cdea-29d5-4ee0-89e0-e79971bdaa13.jpeg">
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
         </div>
     </nav>
 
