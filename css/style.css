@@ -40,4 +40,12 @@ span a:hover {
 
 .socialNetwork-icon:hover {
   color: #4E57EF !important;
+}
+
+#firstCard {
+  border-radius: 10px 10px 0px 0px;
+}
+
+#secondCard {
+  border-radius: 0px 0px 10px 10px;
 }/*# sourceMappingURL=style.css.map */
