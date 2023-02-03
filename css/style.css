@@ -48,4 +48,10 @@ span a:hover {
 
 #secondCard {
   border-radius: 0px 0px 10px 10px;
+}
+
+.bg-grey {
+  background-color: rgb(220, 220, 220);
+  height: 40vh;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
